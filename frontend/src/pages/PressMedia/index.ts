@@ -1,0 +1,2 @@
+export { PressMedia } from './PressMedia'
+
