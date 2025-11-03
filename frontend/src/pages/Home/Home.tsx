@@ -14,23 +14,6 @@ export function Home() {
               <p className="text-xl md:text-3xl text-muted-foreground mb-6">
                 Vice President of Products at <span className="font-bold text-primary">Improvado</span>
               </p>
-              <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
-                Product Executive | AI Innovator | Marketing Data Intelligence Leader
-              </p>
-              <div className="flex flex-wrap justify-center gap-4 mt-8">
-                <a
-                  href="#contact"
-                  className="bg-primary text-primary-foreground hover:bg-primary/90 px-8 py-3 rounded-full font-semibold transition"
-                >
-                  Get in Touch
-                </a>
-                <a
-                  href="#achievements"
-                  className="border border-border hover:border-primary px-8 py-3 rounded-full font-semibold transition"
-                >
-                  View Achievements
-                </a>
-              </div>
             </>
           }
         >
