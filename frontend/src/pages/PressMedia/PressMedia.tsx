@@ -67,9 +67,9 @@ export function PressMedia() {
   ]
 
   return (
-    <section id="press-media" className="min-h-screen py-20 px-6">
+    <section id="press-media" className="min-h-screen py-12 md:py-20 px-4 md:px-6">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center">
+        <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-8 md:mb-12 text-center">
           Press & Media
         </h2>
         <ul className="grid grid-cols-1 grid-rows-none gap-4 md:grid-cols-12 md:grid-rows-3 lg:gap-4 xl:max-h-[80rem] xl:grid-rows-2">

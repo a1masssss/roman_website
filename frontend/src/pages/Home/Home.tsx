@@ -8,10 +8,10 @@ export function Home() {
         <ContainerScroll
           titleComponent={
             <>
-              <h1 className="text-4xl md:text-6xl font-semibold text-black dark:text-white mb-4">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold text-black dark:text-white mb-3 md:mb-4 px-4">
                 Roman Vinogradov
               </h1>
-              <p className="text-xl md:text-3xl text-muted-foreground mb-6">
+              <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-muted-foreground mb-4 md:mb-6 px-4">
                 Vice President of Products at <span className="font-bold text-primary">Improvado</span>
               </p>
             </>

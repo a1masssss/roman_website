@@ -57,11 +57,11 @@ export const Contact2 = ({
   };
 
   return (
-    <section className="py-32 relative">
-      <div className="container">
+    <section className="py-12 md:py-32 relative">
+      <div className="container px-4">
         <div className="mx-auto flex max-w-screen-xl flex-col justify-between gap-10">
           <div className="mx-auto max-w-2xl text-center">
-            <h1 className="mb-2 text-5xl font-semibold lg:mb-1 lg:text-6xl">
+            <h1 className="mb-2 text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold lg:mb-1">
               {title}
             </h1>
             <p className="text-muted-foreground">{description}</p>
