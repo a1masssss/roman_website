@@ -6,6 +6,7 @@ export function Contact() {
       <Contact2
         title="Get In Touch"
         description="Feel free to reach out for collaborations, opportunities, or just to say hi!"
+        email="vry@improvado.io"
       />
     </div>
   )

@@ -1,61 +1,64 @@
 import { cn } from "@/lib/utils";
 import {
-  IconAdjustmentsBolt,
-  IconCloud,
+  IconDatabase,
+  IconChartLine,
+  IconRobot,
+  IconNetwork,
+  IconRocket,
   IconCurrencyDollar,
-  IconEaseInOut,
-  IconHeart,
-  IconHelp,
-  IconRouteAltLeft,
-  IconTerminal2,
+  IconShieldCheck,
+  IconBulb,
 } from "@tabler/icons-react";
 
 export function FeaturesSectionWithHoverEffects() {
   const features = [
     {
-      title: "Built for developers",
+      title: "Forbes Technology Council — Member & Contributor",
       description:
-        "Built for engineers, developers, dreamers, thinkers and doers.",
-      icon: <IconTerminal2 />,
+        "Published multiple expert commentaries on AI, data, and product strategy.",
+      icon: <IconBulb />,
     },
     {
-      title: "Ease of use",
+      title: "Senior Executive — AI Expert",
       description:
-        "It's as easy as using an Apple, and as expensive as buying one.",
-      icon: <IconEaseInOut />,
+        "Authored industry analyses on regulated AI, cybersecurity, and the future of work.",
+      icon: <IconShieldCheck />,
     },
     {
-      title: "Pricing like no other",
+      title: "Berkeley SkyDeck — Advisor",
       description:
-        "Our prices are best in the market. No cap, no lock, no credit card required.",
+        "Mentor founders on AI product strategy, GTM, and scaling.",
+      icon: <IconRocket />,
+    },
+    {
+      title: "Astana Hub — Mentor",
+      description:
+        "Guided startups on international expansion, sales architecture, and AI adoption.",
+      icon: <IconNetwork />,
+    },
+    {
+      title: "Self-Serve ETL Transformation (Improvado)",
+      description:
+        "Redesigned platform to self-serve pipelines; reduced time-to-insight by 50%.",
+      icon: <IconDatabase />,
+    },
+    {
+      title: "AI Revenue Assistant (Improvado)",
+      description:
+        "Converted raw data into decisions; increased Customer LTV by 35%.",
+      icon: <IconRobot />,
+    },
+    {
+      title: "Growth Impact (Improvado)",
+      description:
+        "Drove +800% ARR to $4.5M and +1200% user expansion through product strategy.",
+      icon: <IconChartLine />,
+    },
+    {
+      title: "Series A Readiness (Improvado)",
+      description:
+        "Led product positioning and collateral supporting a $22M Series A round.",
       icon: <IconCurrencyDollar />,
-    },
-    {
-      title: "100% Uptime guarantee",
-      description: "We just cannot be taken down by anyone.",
-      icon: <IconCloud />,
-    },
-    {
-      title: "Multi-tenant Architecture",
-      description: "You can simply share passwords instead of buying new seats",
-      icon: <IconRouteAltLeft />,
-    },
-    {
-      title: "24/7 Customer Support",
-      description:
-        "We are available a 100% of the time. Atleast our AI Agents are.",
-      icon: <IconHelp />,
-    },
-    {
-      title: "Money back guarantee",
-      description:
-        "If you donot like EveryAI, we will convince you to like us.",
-      icon: <IconAdjustmentsBolt />,
-    },
-    {
-      title: "And everything else",
-      description: "I just ran out of copy ideas. Accept my sincere apologies",
-      icon: <IconHeart />,
     },
   ];
 
