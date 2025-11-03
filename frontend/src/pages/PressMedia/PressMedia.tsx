@@ -1,4 +1,4 @@
-import { Newspaper, Video, Mic, Radio, Tv, FileText } from "lucide-react"
+import { Newspaper, FileText } from "lucide-react"
 import { GlowingEffect } from "@/components/ui/glowing-effect"
 import { cn } from "@/lib/utils"
 
