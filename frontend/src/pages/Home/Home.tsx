@@ -17,10 +17,18 @@ export function Home() {
             </>
           }
         >
+          {/* Desktop version */}
           <img
             src="/improvado_demo.jpg"
             alt="Improvado Platform Demo"
-            className="mx-auto rounded-2xl object-cover h-full object-left-top"
+            className="hidden md:block mx-auto rounded-2xl object-cover h-full object-left-top"
+            draggable={false}
+          />
+          {/* Mobile version */}
+          <img
+            src="/imrpovado_phone.png"
+            alt="Improvado Mobile Demo"
+            className="block md:hidden mx-auto rounded-2xl object-contain h-full"
             draggable={false}
           />
         </ContainerScroll>
