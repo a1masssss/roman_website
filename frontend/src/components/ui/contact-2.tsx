@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
-import { Mail } from "lucide-react";
 
 interface Contact2Props {
   title?: string;
@@ -23,11 +22,6 @@ export const Contact2 = ({
     subject: '',
     message: ''
   });
-
-  const handleEmailClick = (e: React.MouseEvent) => {
-    e.preventDefault();
-    window.location.href = `mailto:${email}`;
-  };
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
