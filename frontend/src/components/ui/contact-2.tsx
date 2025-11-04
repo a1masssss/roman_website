@@ -65,16 +65,6 @@ export const Contact2 = ({
               {title}
             </h1>
             <p className="text-muted-foreground">{description}</p>
-            {email && (
-              <button
-                onClick={handleEmailClick}
-                className="mt-4 inline-flex items-center gap-2 text-lg font-medium text-primary hover:underline transition-colors cursor-pointer relative z-10 bg-transparent border-none p-2"
-                type="button"
-              >
-                <Mail className="h-5 w-5" />
-                {email}
-              </button>
-            )}
           </div>
           
           <form onSubmit={handleSubmit} className="mx-auto flex w-full max-w-screen-md flex-col gap-6 rounded-lg border p-10 relative z-10">
