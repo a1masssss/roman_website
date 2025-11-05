@@ -17,20 +17,27 @@ export function Home() {
             </>
           }
         >
-          {/* Desktop version */}
-          <img
-            src="/improvado_demo.jpg"
-            alt="Improvado Platform Demo"
-            className="hidden md:block mx-auto rounded-2xl object-cover h-full object-left-top"
-            draggable={false}
-          />
-          {/* Mobile version */}
-          <img
-            src="/imrpovado_phone.png"
-            alt="Improvado Mobile Demo"
-            className="block md:hidden mx-auto rounded-2xl object-contain h-full"
-            draggable={false}
-          />
+          <a
+            href="https://improvado.io"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cursor-pointer"
+          >
+            {/* Desktop version */}
+            <img
+              src="/improvado_demo.jpg"
+              alt="Improvado Platform Demo"
+              className="hidden md:block mx-auto rounded-2xl object-cover h-full object-left-top transition-opacity hover:opacity-90"
+              draggable={false}
+            />
+            {/* Mobile version */}
+            <img
+              src="/imrpovado_phone.png"
+              alt="Improvado Mobile Demo"
+              className="block md:hidden mx-auto rounded-2xl object-contain h-full transition-opacity hover:opacity-90"
+              draggable={false}
+            />
+          </a>
         </ContainerScroll>
       </section>
       

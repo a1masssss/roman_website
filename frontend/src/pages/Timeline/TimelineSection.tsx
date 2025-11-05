@@ -9,8 +9,9 @@ export function TimelineSection() {
         <div>
           <div className="mb-8">
             <h3 className="text-lg md:text-xl font-bold text-neutral-800 dark:text-neutral-100 mb-2">
-              Vice President of Products — Improvado
+              Vice President of Products — <a href="https://improvado.io" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors hidden md:inline">Improvado</a><span className="md:hidden">Improvado</span>
             </h3>
+            <p className="text-neutral-600 dark:text-neutral-400 text-sm mb-2">Vice President of Products at Improvado</p>
             <p className="text-neutral-600 dark:text-neutral-400 text-sm mb-4">San Francisco Bay Area</p>
             <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm mb-4">
               Leading product strategy for a marketing data intelligence platform trusted by ASUS, General Electric, and more.

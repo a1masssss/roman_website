@@ -3,7 +3,7 @@
 import React from 'react';
 import type { ComponentProps, ReactNode } from 'react';
 import { motion, useReducedMotion } from 'framer-motion';
-import { FacebookIcon, FrameIcon, InstagramIcon, LinkedinIcon, YoutubeIcon, SendIcon } from 'lucide-react';
+import { FacebookIcon, FrameIcon, InstagramIcon, LinkedinIcon, SendIcon } from 'lucide-react';
 
 interface FooterLink {
 	title: string;
@@ -32,7 +32,6 @@ const footerLinks: FooterSection[] = [
 			{ title: 'Facebook', href: 'https://www.facebook.com/share/1FQm6i7WiS/?mibextid=wwXIfr', icon: FacebookIcon },
 			{ title: 'Instagram', href: 'https://www.instagram.com/roman.vin_tech?igsh=MXE4d2FxMTZoaGVtaw==', icon: InstagramIcon },
 			{ title: 'LinkedIn', href: 'https://www.linkedin.com/in/romanvin?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app', icon: LinkedinIcon },
-			{ title: 'YouTube', href: 'https://www.youtube.com/@improvado-io', icon: YoutubeIcon },
 			{ title: 'Telegram', href: 'https://t.me/ofc_lets_chat', icon: SendIcon },
 		],
 	},
